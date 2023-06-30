@@ -1,0 +1,268 @@
+*{
+    margin: 0 , auto;
+    font-family: 'open Sans' , sans-serif;
+    max-width: 1600px;
+}
+h1, p{
+    padding-left: 10%;
+}
+/* header and nav style */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: bisque;
+  }
+  
+  #container {
+    display: flex;
+  }
+  
+  #sidebar {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: auto;
+    padding: 20px;
+    position: fixed;
+    height: 100vh;
+    padding-top: 20%;
+  }
+  
+  #sidebar a {
+    display: block;
+    margin-bottom: 20px;
+    color: #f0eaea;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  #sidebar a:hover{
+        color: #df8e16; /* Text color on hover */
+        text-decoration: underline; /* Underline on hover */
+}
+.btn{
+    color: aliceblue;
+    height: 64px;
+   
+    font-size: 20px;
+    top: 49px;
+    border: 0;
+    padding: 12px 20px;
+    font-weight: 700;
+    background-color: #ff6b02;
+    border-radius: 5px;
+    margin-right: 15px;
+    margin-left: 60px;
+}
+
+.text-primary{
+    color: rgb(246, 106, 25);
+}
+
+#container-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   height: 80vh;
+    margin-bottom: 50px;
+  }
+
+#form-container {
+    display: flex;
+    width: 800px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    height: 300px;
+  }
+.text{
+    padding-top: 10px;
+    text-align: center;
+}
+#contact{
+    margin-top: 5%;
+}
+  #form-container img {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  #form-container form {
+    width: 100%;
+  }
+  
+  #form-container input,
+  #form-container textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #form-container button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+/* banner style */
+.banner{
+    display: flex;
+    margin: 0 100px;
+    align-items: center;
+    height: 95vh;
+}
+.intro{
+font-weight: 600;
+font-size: 45px;
+margin-bottom: 20px;
+padding-top: 50px;
+}
+.name{
+    font-size: 85px;
+    font-weight: 800;
+}
+.description{
+    color: rgb(12, 8, 3);
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+a{
+    text-decoration: none;
+  color: #f0eaea;
+}
+.img-home{
+    margin-top: 30px;
+    padding-top: 30px;
+}
+#right
+{
+    text-align: right;
+}
+/* about */
+.about{
+    margin-top: 50px;
+    background-color: rgb(245, 238, 227);
+    border-radius: 10px;
+    padding: 50px 100px;
+    text-align: center;
+    height: 90vh;
+   
+
+}
+.section-title{
+
+    margin-bottom: 50px;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+
+}
+.section-description{
+    color: rgb(66, 70, 69);
+    font-size: 18px;
+    margin-bottom: 30px;
+
+}
+.about-cotain{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+
+.info-title
+{
+ font-size: 20px;
+ color: #353434;
+ font-weight: bold;
+}
+.info-description{
+    font-size: 20px;
+    font-weight: 700;
+    color: #757575;
+
+}
+/* what i do style */
+.sec-title{
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 50px;
+    font-size:50px;
+}
+.skill-contain{
+    display: flex;
+    padding-top: 5%;
+    gap: 24px;
+}
+.skill{
+    background: #ededed;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+
+}
+.skill-title{
+    font-size: 700 ;
+    font-weight: 15px;
+    margin-bottom: 20px;
+    font-weight: bold;
+
+}
+.skill-description{
+    color: #2a2929;
+
+}
+/* guide */
+.fa-check{
+    color: green;
+}
+
+.plan-section{
+    height: 85vh;
+}
+
+.plan-title{
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    color: #151414;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+.plan-box{
+    display: flex;
+    margin-left: 100px;
+   
+
+}
+.plan{
+    width: 493.96px;
+    height: 199.96px;
+
+}
+.plans{
+    list-style: none;
+}
+.logo{
+    width: 92.96px;
+    height: 92.96px;
+    margin-left: 150px;
+
+}
+.plan-name{
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 12%;
+    
+}
+.plan-description{
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(115, 114, 114);
+
+
+}
